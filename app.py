@@ -12,7 +12,7 @@ from chatbot import get_exact_answer, save_unanswered_question
 st.set_page_config(page_title="Chatbot BP", page_icon="🤖", layout="wide")
 
 # ------------------- CONSTANTES MONGODB -------------------
-MONGO_URI = "mongodb+srv://kenisuna20:aHQU48wLqdlqsI5j@cluster0.mkj6vy1.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
+MONGO_URI = "mongodb+srv://itrebmalak:azerty1234@chatbotpbprojet.9v7hlst.mongodb.net/"
 DB_NAME = "chatbot_db"
 QUESTIONS_COLLECTION = "unanswered_questions"
 USAGE_COLLECTION = "chat_usage"
@@ -335,7 +335,7 @@ elif onglet == "💡 Bonnes pratiques":
             st.markdown(f"<div style='padding-left:1rem;'>{solution}</div>", unsafe_allow_html=True)
 # ------------------- ONGLET ADMIN -------------------
 elif onglet == "🔐 Admin":
-    MONGO_URI = "mongodb://localhost:27017"
+    MONGO_URI = "mongodb+srv://itrebmalak:azerty1234@chatbotpbprojet.9v7hlst.mongodb.net/"
     DB_NAME = "chatbot_db"
     # Configuration du style
     st.markdown("""
