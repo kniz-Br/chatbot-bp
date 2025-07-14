@@ -16,7 +16,6 @@ MONGO_URI = "mongodb+srv://kenisuna20:aHQU48wLqdlqsI5j@cluster0.mkj6vy1.mongodb.
 DB_NAME = "chatbot_db"
 QUESTIONS_COLLECTION = "unanswered_questions"
 USAGE_COLLECTION = "chat_usage"
-
 # ------------------- LOGO EN HAUT À DROITE -------------------
 with open("logo_bp.png", "rb") as file_:
     contents = file_.read()
